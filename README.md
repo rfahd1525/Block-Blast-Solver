@@ -2,6 +2,9 @@
 
 A web-based solver for the Block Blast puzzle game. Upload a screenshot or manually input your grid, select your pieces, and get the optimal solution.
 
+Try it Here:
+https://rfahd1525.github.io/Block-Blast-Solver/
+
 ## Features
 
 - **Screenshot Upload**: Take a screenshot of your Block Blast game and the solver will automatically detect the grid
