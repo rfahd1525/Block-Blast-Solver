@@ -147,8 +147,8 @@ function createPiecePreview(block) {
     const height = shape.length;
     const width = shape[0].length;
 
-    preview.style.gridTemplateColumns = `repeat(${width}, 20px)`;
-    preview.style.gridTemplateRows = `repeat(${height}, 20px)`;
+    preview.style.gridTemplateColumns = `repeat(${width}, 1fr)`;
+    preview.style.gridTemplateRows = `repeat(${height}, 1fr)`;
 
     for (let r = 0; r < height; r++) {
         for (let c = 0; c < width; c++) {
@@ -337,7 +337,7 @@ function displaySolution(result) {
 
     resultDiv.className = 'solution-result';
     resultDiv.innerHTML = `
-        <h3>✅ Solution Found!</h3>
+        <h3>Solution Found</h3>
         <p><strong>Total Score:</strong> ${scoreData.score}</p>
         <p><strong>Lines Cleared:</strong> ${scoreData.totalClears} (${scoreData.clearedRows.length} rows, ${scoreData.clearedCols.length} columns)</p>
         <p><strong>Pieces Placed:</strong> ${placements.length}</p>

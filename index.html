@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Block Blast Solver - Find the Most Optimal Solution</title>
+    <title>Block Blast Solver</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%2300f0ff%22 width=%22100%22 height=%22100%22 rx=%2210%22/></svg>">
 </head>
 <body>
     <div class="container">
         <header>
             <h1>Block Blast Solver</h1>
-            <p class="subtitle">Find the most optimal solution for your puzzle</p>
+            <p class="subtitle">Optimal puzzle solutions</p>
         </header>
 
         <div class="input-method-selector">
             <button class="tab-button active" data-tab="manual">
-                <span class="icon">✏️</span> Manual Input
+                Manual Input
             </button>
             <button class="tab-button" data-tab="screenshot">
-                <span class="icon">📸</span> Screenshot Upload
+                Screenshot Upload
             </button>
         </div>
 
@@ -62,7 +63,7 @@
 
             <div class="action-section">
                 <button class="btn-primary" id="solve-button">
-                    <span class="icon">🎯</span> Find Solution
+                    Find Optimal Solution
                 </button>
             </div>
         </div>
@@ -71,7 +72,7 @@
         <div id="screenshot-input" class="input-section">
             <div class="upload-container">
                 <div class="upload-area" id="upload-area">
-                    <div class="upload-icon">📸</div>
+                    <div class="upload-icon"></div>
                     <h3>Upload Screenshot</h3>
                     <p>Drag & drop your Block Blast screenshot here or click to browse</p>
                     <input type="file" id="screenshot-file" accept="image/*" hidden>
@@ -123,7 +124,7 @@
 
             <div class="action-section hidden" id="solve-screenshot-section">
                 <button class="btn-primary" id="solve-button-screenshot">
-                    <span class="icon">🎯</span> Find Optimal Solution
+                    Find Optimal Solution
                 </button>
             </div>
         </div>
@@ -150,7 +151,7 @@
             <div class="continue-section">
                 <p class="hint">Want to find the next best move?</p>
                 <button class="btn-primary" id="continue-button">
-                    <span class="icon">🔄</span> Continue from Final State
+                    Continue from Final State
                 </button>
             </div>
         </div>
